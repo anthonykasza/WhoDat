@@ -64,6 +64,9 @@ use whois
 db.whois.ensureIndex( {contactEmail: 1} )
 db.whois.ensureIndex( {registrant_name: 1} )
 db.whois.ensureIndex( {registrant_telephone: 1} )
+db.whois.ensureIndex( {registrant_email: 1} )
+db.whois.ensureIndex( {registrarName: 1} )
+
 ```
 - Copy pydat to /var/www/ (or prefered location)
 - Copy pydat/custom_settings_example.py to pydat/custom_settings.py.
